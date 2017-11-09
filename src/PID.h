@@ -45,13 +45,6 @@ public:
     
 private:
     bool is_initialize;
-    double twiddle_t;
-    double twiddle_error;
-    double best_error;
-    std::vector<double> dp;
-    int twiddle_id;
-    bool added_;
-    bool subtracted_;
 };
 
 #endif /* PID_H */
